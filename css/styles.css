@@ -1,9 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    font-size: 16px;
-    background-color: #FFFFFF;
-    line-height: 1.5;
+        color: #434455;
+        background-color: #ffffff;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .logo {
     font-weight: 700;
@@ -24,35 +25,6 @@ ul {
 a {
     text-decoration: none;
 }
-.head {
-    background-color: #FFFFFF;
-}
-.social-links .link-studio {
-    font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-.social-links .link-studio:hover {
-    font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #404BBF;
-}
-.social-links .link-studio:active {
-    font-weight: 500;
-        font-size: 16px;
-    text-decoration: underline;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #404BBF;
-}
 .social-links .link {
     font-weight: 500;
         font-size: 16px;
@@ -62,31 +34,20 @@ a {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.social-links .link:hover {
-    font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+.social-links .link:hover,
+.social-links .link:focus {
         color: #404BBF;
 }
 .addres .addres-1 {
     font-weight: 400;
         font-size: 16px;
-    font-style: normal;
         /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.addres .addres-1:hover {
-    font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+.addres .addres-1:hover,
+.addres .addres-1:focus {
         color: #404BBF;
 }
 .main-page {
@@ -110,33 +71,33 @@ a {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4D5AE5;
+            background-color: #4D5AE5;
 }
-.main-page .button:hover {
-        font-weight: 500;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #404BBF;
+ .main-page .button:hover,
+ .main-page .button:focus {
+            background-color: #404BBF;
 }
 footer {
     background-color: #2E2F42;
 }
-.our-advantages .main-text{
+.title-2 {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+}
+.title-3 {
     font-weight: 500;
         font-size: 20px;
     
         /* line-height: 24px; */
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color:#2E2F42;
 }
-.our-advantages .text {
+.text {
     font-weight: 400;
         font-size: 16px;
     
@@ -145,66 +106,12 @@ footer {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.our-team .main-text {
-    font-weight: 700;
-        font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;
+.our-team {
+    background: #F4F4FD;
 }
-.our-team .images {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #FFFFFF;
-}
-.our-team .name {
-    font-weight: 500;
-        font-size: 20px;
-    
-        /* line-height: 24px; */
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;
-}
-.our-team .description {
-    font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
-.our-portfolio .main-text {
-    font-weight: 700;
-        font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;
-}
-.our-portfolio .name {font-weight: 500;
-    font-size: 20px;
 
-    /* line-height: 24px; */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.our-portfolio .description {
-    font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+.background {
+    background-color: #ffffff;
 }
 footer .logo {font-weight: 700;
     font-size: 18px;
